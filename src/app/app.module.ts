@@ -11,6 +11,7 @@ import { ListComentComponent } from './components/list-coment/list-coment.compon
 import { ViewComentComponent } from './components/view-coment/view-coment.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http'
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    YouTubePlayerModule,
     ToastrModule.forRoot()
   ],
   providers: [],
